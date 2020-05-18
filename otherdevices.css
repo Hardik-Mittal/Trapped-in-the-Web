@@ -1,0 +1,121 @@
+/* navigation section  */
+#navbar{
+    flex-direction: column;
+    position: relative;
+    /* height: 150px; */
+}
+#logo{
+    height: 90px;
+    margin: 3px 15px 14px 15px;
+}
+#navbar ul li a{
+    font-size: 0.9rem;
+    padding: 3px 6px 3px 6px;
+    margin-bottom: 5px;
+}
+
+
+
+/* home section  */
+#home{
+    height: 370px;
+    padding: 3px 10px;
+    padding: 3px 10px;
+}
+#home::before{
+    height: 510px;
+
+}
+
+#home p{
+    font-size: 1rem;
+}
+/* services section  */
+#services{
+    flex-direction: column;
+    margin: 0px 12px 12px 12px;
+}
+#services .box{
+    padding: 10px 8px;
+}
+#services .box img{
+    height: 120px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+#services2{
+    flex-direction: column;
+    margin: 0px 12px 12px 12px;
+}
+#services2 .box{
+    padding: 10px 8px;
+}
+#services2 .box img{
+    height: 120px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+
+
+/* client section  */
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    height:80px;
+    width: auto
+}
+.client-item{
+    padding: 10px 15px;
+    margin: 10px 10px;
+}
+
+/* contact us section  */
+
+
+#contact-box form{
+    width: 80%;
+    
+}
+
+#contact-box .inp,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 0.7rem;
+    
+}
+
+/* footer  */
+footer{
+    font-size: 0.7rem;
+}
+
+/* utility classes */
+.h-primary{
+    font-size: 1.8rem;
+}
+.h-secondary{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+    padding: 0px 0px 10px 0px;
+    
+}
+
+.btn{
+    font-size: 1.3rem ;
+    padding: 4px 8px;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+radio{
+    all: unset;
+    width: 200%;
+    cursor: pointer;
+}
